@@ -43,13 +43,6 @@ const Login = () => {
 
 
 
-
-
-
-
-
-
-
     return (
         <div className="container mx-auto p-5 min-h-[100vh] flex flex-col justify-center items-center relative">
 
@@ -91,7 +84,7 @@ const Login = () => {
             {/* Toggle to register page */}
             <div className="flex justify-center items-center flex-col font-body">
                 <div className="mt-5 flex justify-center items-center gap-1">
-                    <p className="text-center font-medium ">Already have an account?</p>
+                    <p className="text-center font-medium">{'Don\'t'} have an account?</p>
                     <Link to="/register" className="font-bold border-b-2 border-[gray] hover:bg-main hover:text-white hover:bg-black hover:border-black px-2 py-1 duration-300">Register</Link>
                 </div>
             </div>
